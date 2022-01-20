@@ -1,0 +1,31 @@
+.main--container{
+    display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+ 
+ 
+     .section--principal {
+ 
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         height: 50rem;
+         width: 100%;
+     
+ 
+         h1{
+             color: #fff;
+             font: {
+                 size: 4rem;
+                 weight: bold;
+             }
+             text-shadow: 0.5rem 0.5rem 0.5rem #000;
+             position: relative;
+             top: 25rem;
+         }
+     }
+ }
+ .foto-camara{
+     width: 100%;
+ }

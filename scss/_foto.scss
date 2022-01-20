@@ -1,0 +1,30 @@
+.portafolio{
+	font-family: inherit;
+	font-size: 10rem;
+	color: white;
+	text-align: center;
+}
+
+.galery{
+    width: 98%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    margin: 2rem auto;
+
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 0.5rem;
+        align-items: center;
+        transition:linear;
+    }
+}
+.paquetes {
+    display: flex;
+    justify-content: space-around;
+
+}

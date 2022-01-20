@@ -1,0 +1,27 @@
+body {
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*MENU*/
+@import "menu";
+
+
+/*VIDEO*/
+.contenedor {
+	width: 30%;
+	height: auto;
+	margin: 3rem;
+}
+
+/*grids*/
+@import "grids";
+
+/* SECCION FOTO */
+@import "foto";
+
+/*SECCION CONTACTO*/
+@import "contacto";
+
+/*ANIMACIONES*/
+@import "animaciones";
