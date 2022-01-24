@@ -39,7 +39,7 @@ p {
     
 }
   
-  .menuButton:hover {
+.menuButton:hover {
     position: relative;
     transition-property: background-color, color;
     transition-duration: 1s;
@@ -56,8 +56,7 @@ p {
 .zoom {
     transition: transform 5s;
     transform: scale(1); 
-
-    .zoom:hover {
-        transform: scale(.8); 
+  .zoom:hover {
+      transform: scale(.8); 
     }
 }
